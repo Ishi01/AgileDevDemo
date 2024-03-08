@@ -1,0 +1,70 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="testing.css">
+    </head>
+    <body>
+
+        <h1>Group project signup</h1>
+        <p>Enter your signup details here</p>
+
+
+        <form action="/submitGroup">
+            <label for="numberOfStudents">Number of Students</label>
+            <select name="numberOfStudents" id="numberOfStudents">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+            </select>
+
+            <br>
+            <label for="student1" >Student 1:</label>
+            <input type="number" id="student1"> </input>
+
+            <br>
+            <label for="student2" >Student 2:</label>
+            <input type="number" id="student2"> </input>
+
+            <br>
+            <label for="student3" >Student 3:</label>
+            <input type="number" id="student3"> </input>
+
+            <br>
+            <label for="student4" >Student 4:</label>
+            <input type="number" id="student4"> </input>
+        
+        </form>
+        <br>
+        <input type="submit">
+    </body>
+</html>
+
+<html>
+    <body>
+        <div id="signupForm">
+            <form action="/submitGroup">
+            </form>
+        </div>
+
+        <div id="existingGroups">
+            <h2>Existing Groups</h2>
+            <table>
+                <tr>
+                    <th>Group ID</th>
+                    <th>Student1</th>
+                    <th>Student2</th>
+                    <th>Student3</th>
+                    <th>Student4</th>
+                </tr>
+                <tr>
+                    <td>0</td>
+                    <td>12345678</td>
+                    <td>22345678</td>
+                    <td>32345678</td>
+                    <td>42345678</td>
+                </tr>
+
+            </table>
+        </div>
+    </body>
+</html>
