@@ -1,0 +1,15 @@
+p {
+    color:blue;
+}
+
+#signUpForm {
+    background-color: cyan;
+}
+
+#existingGroups{
+    background-color: pink;
+}
+
+.studentName:hover{
+    font-weight: bold;
+}
